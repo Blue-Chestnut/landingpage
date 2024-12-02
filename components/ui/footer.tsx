@@ -15,12 +15,12 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              &copy; Cruip.com - All rights reserved.
+              &copy; blue-chestnut.com - All rights reserved.
             </div>
           </div>
 
           {/* 2nd block */}
-          <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h3 className="text-sm font-medium">Product</h3>
             <ul className="space-y-2 text-sm">
               <li>
@@ -64,7 +64,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 3rd block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
@@ -78,14 +78,14 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   About us
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
                   Diversity & Inclusion
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
@@ -94,27 +94,27 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   Blog
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
                   Careers
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
                   Financial statements
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
           {/* 4th block */}
-          <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h3 className="text-sm font-medium">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
@@ -142,7 +142,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 5th block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
@@ -151,7 +151,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
-                  href="#0"
+                  href="https://x.com/MatthiasRuiz22"
                   aria-label="Twitter"
                 >
                   <svg
@@ -166,8 +166,8 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
-                  href="#0"
-                  aria-label="Medium"
+                  href="https://medium.com/@matthias-ruiz-hamacher"
+                  aria-label="Medium" 
                 >
                   <svg
                     className="h-8 w-8 fill-current"
@@ -181,7 +181,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
-                  href="#0"
+                  href="https://github.com/Blue-Chestnut"
                   aria-label="Github"
                 >
                   <svg
