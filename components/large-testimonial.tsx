@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TestimonialImg from "@/public/images/large-testimonial.jpg";
+import RiiicoLogo from "@/public/images/logo-riiico-grey.png";
 
 export default function LargeTestimonial() {
   return (
@@ -23,23 +23,21 @@ export default function LargeTestimonial() {
               </svg>
               <Image
                 className="rounded-full"
-                src={TestimonialImg}
-                width={48}
-                height={48}
-                alt="Large testimonial"
+                src={RiiicoLogo}
+                width={96}
+                height={96}
+                alt="Riiico Logo"
               />
             </div>
             <p className="text-2xl font-bold text-gray-900">
-              “Simple has simplified my life in more ways than one. From
-              managing my sites to{" "}
-              <em className="italic text-gray-500">keeping track of tasks</em>,
-              it's become my go-to tool for everything.”
+              “Thanks to Blue Chestnut’s great work, we have seen performance gains in our AI pipelines. We recommend 
+              Blue Chestnut for their commitment, speed of delivery and technical excellence.”
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Mary Sullivan</span>{" "}
+              <span className="text-gray-700">Patrick Mertens</span>{" "}
               <span className="text-gray-400">/</span>{" "}
               <a className="text-blue-500" href="#0">
-                CTO at Microsoft
+                CTO at Riiico
               </a>
             </div>
           </div>
