@@ -23,8 +23,7 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                The only tech consultancy whose financials interests are aligned
-                with yours
+                We build the bridge between your real world problems and cutting edge AI technology.
               </p>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
                 <div
