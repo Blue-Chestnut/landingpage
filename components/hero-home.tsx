@@ -85,7 +85,7 @@ export default function HeroHome() {
                 </span>
                 <br />
                 <span className="animate-[code-6_10s_infinite]">
-                  Package published.
+                  Package published. 
                 </span>
               </div> */}
             {/* </div> */}
