@@ -9,6 +9,7 @@ export default function Header() {
           {/* Site branding */}
           <div className="flex flex-1 items-center">
             <Logo />
+            <span className="text-xl font-bold pl-2">Blue Chestnut</span>
           </div>
 
           {/* Desktop sign in links */}
@@ -23,10 +24,10 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/services"
+                href="/everblue"
                 className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
               >
-                Services
+                EverBlue
               </Link>
             </li>
             <li>
