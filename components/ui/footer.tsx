@@ -19,7 +19,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              &copy; blue-chestnut.com - All rights reserved.
+              &copy; Blue Chestnut UG - All rights reserved.
             </div>
           </div>
 
@@ -97,7 +97,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="https://medium.com/@matthias-ruiz-hamacher"
                 >
                   Blog
                 </Link>
@@ -164,7 +164,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
             <ul className="flex gap-1">
               <li>
                 <Link
-                  className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
+                  className="flex items-center justify-center text-[#093747] transition hover:text-[#0b475b]"
                   href="https://x.com/MatthiasRuiz22"
                   aria-label="Twitter"
                 >
@@ -180,7 +180,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               </li>
               <li>
                 <Link
-                  className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
+                  className="flex items-center justify-center text-[#093747] transition hover:text-[#0b475b]"
                   href="https://medium.com/@matthias-ruiz-hamacher"
                   aria-label="Medium"
                 >
@@ -196,7 +196,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               </li>
               <li>
                 <Link
-                  className="flex items-center justify-center text-blue-500 transition hover:text-blue-600"
+                  className="flex items-center justify-center text-[#093747] transition hover:text-[#0b475b]"
                   href="https://github.com/Blue-Chestnut"
                   aria-label="Github"
                 >
@@ -227,7 +227,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
           className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-2/3"
           aria-hidden="true"
         >
-          <div className="h-56 w-56 rounded-full border-[20px] border-blue-700 blur-[80px]">
+          <div className="h-56 w-56 rounded-full border-[20px] border-[#093747] blur-[80px]">
           </div>
         </div>
       </div>

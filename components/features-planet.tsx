@@ -76,7 +76,7 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-white"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -97,7 +97,7 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-white"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -116,7 +116,7 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-white"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -139,7 +139,7 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-white"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -157,7 +157,7 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-white"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}
@@ -175,7 +175,7 @@ export default function FeaturesPlanet() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
-                  className="fill-blue-500"
+                  className="fill-white"
                   xmlns="http://www.w3.org/2000/svg"
                   width={16}
                   height={16}

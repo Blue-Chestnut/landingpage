@@ -31,12 +31,12 @@ export default function BusinessCategories() {
                 data-aos-delay={450}
               >
                 <a
-                  className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
+                  className="btn group mb-4 w-full bg-gradient-to-t from-[#093747] to-[#0b475b] bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                   href="#0"
                 >
                   <span className="relative inline-flex items-center">
                     Start Free Trial{" "}
-                    <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
+                    <span className="ml-1 tracking-normal text-white transition-transform group-hover:translate-x-0.5">
                       -&gt;
                     </span>
                   </span>
@@ -56,7 +56,7 @@ export default function BusinessCategories() {
             {/* Small blue dots */}
             <div className="absolute -z-10">
               <svg
-                className="fill-blue-500 scale-75 md:scale-100"
+                className="fill-[#093747] scale-75 md:scale-100"
                 xmlns="http://www.w3.org/2000/svg"
                 width={164}
                 height={41}
@@ -168,7 +168,7 @@ export default function BusinessCategories() {
               >
                 <g opacity="0.6" filter="url(#filter0_f_2044_9)">
                   <path
-                    className="fill-blue-500"
+                    className="fill-[#093747]"
                     fillRule="evenodd"
                     clipRule="evenodd"
                     d="M80 112C62.3269 112 48 97.6731 48 80C48 62.3269 62.3269 48 80 48C97.6731 48 171 62.3269 171 80C171 97.6731 97.6731 112 80 112ZM352 112C369.673 112 384 97.6731 384 80C384 62.3269 369.673 48 352 48C334.327 48 261 62.3269 261 80C261 97.6731 334.327 112 352 112Z"
