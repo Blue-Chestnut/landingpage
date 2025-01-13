@@ -216,8 +216,11 @@ export default function Footer({ border = false }: { border?: boolean }) {
       </div>
 
       {/* Big text */}
-      <div className="relative -mt-16 h-60 w-full" aria-hidden="true">
-        <div className="pointer-events-none absolute left-1/2 -z-10 -translate-x-1/2 text-center text-[248px] font-bold leading-none before:bg-gradient-to-b before:from-gray-200 before:to-gray-100/30 before:to-80% before:bg-clip-text before:text-transparent before:content-['BlueChestnut'] after:absolute after:inset-0 after:bg-gray-300/70 after:bg-clip-text after:text-transparent after:mix-blend-darken after:content-['BlueChestnut'] after:[text-shadow:0_1px_0_white]">
+      <div
+        className="relative -mt-16 pt-8 sm:pt-3 h-60 w-full"
+        aria-hidden="true"
+      >
+        <div className="pointer-events-none absolute left-1/2 -z-10 -translate-x-1/2 text-center text-[14vw] font-bold leading-none before:bg-gradient-to-b before:from-gray-200 before:to-gray-100/30 before:to-80% before:bg-clip-text before:text-transparent before:content-['BlueChestnut'] after:absolute after:inset-0 after:bg-gray-300/70 after:bg-clip-text after:text-transparent after:mix-blend-darken after:content-['BlueChestnut'] after:[text-shadow:0_1px_0_white]">
         </div>
         {/* Glow */}
         <div

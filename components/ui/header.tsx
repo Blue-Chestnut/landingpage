@@ -1,7 +1,10 @@
 import Link from "next/link";
 import Logo from "./logo";
+import { useState } from "react";
 
 export default function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <header className="fixed top-2 z-30 w-full md:top-6">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -12,12 +15,30 @@ export default function Header() {
             <span className="text-xl font-bold pl-2">Blue Chestnut</span>
           </div>
 
-          {/* Desktop sign in links */}
-          <ul className="flex flex-1 items-center justify-end gap-3">
+          {/* Hamburger menu button */}
+          <button
+            className="md:hidden"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
+            <svg
+              className="h-6 w-6"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+
+          {/* Desktop navigation */}
+          <ul className="hidden md:flex flex-1 items-center justify-end gap-8 pr-3">
             <li>
               <Link
                 href="/"
-                className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
+                className="text-gray-600 hover:text-gray-900 transition-colors duration-150"
               >
                 Home
               </Link>
@@ -25,7 +46,7 @@ export default function Header() {
             <li>
               <Link
                 href="/everblue"
-                className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
+                className="text-gray-600 hover:text-gray-900 transition-colors duration-150"
               >
                 EverBlue
               </Link>
@@ -33,12 +54,41 @@ export default function Header() {
             <li>
               <Link
                 href="/contact"
-                className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
+                className="text-gray-600 hover:text-gray-900 transition-colors duration-150"
               >
                 Contact
               </Link>
             </li>
           </ul>
+
+          {/* Mobile menu */}
+          {mobileMenuOpen && (
+            <div className="absolute right-0 top-full mt-2 w-48 rounded-md bg-white shadow-lg md:hidden">
+              <div className="py-1">
+                <Link
+                  href="/"
+                  className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Home
+                </Link>
+                <Link
+                  href="/everblue"
+                  className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  EverBlue
+                </Link>
+                <Link
+                  href="/contact"
+                  className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Contact
+                </Link>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </header>
