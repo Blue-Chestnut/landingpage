@@ -1,25 +1,62 @@
 import Image from "next/image";
-import Logo01 from "@/public/images/logo-01.svg";
-import Logo02 from "@/public/images/logo-02.svg";
-import Logo03 from "@/public/images/logo-03.svg";
-import Logo04 from "@/public/images/logo-04.svg";
-import Logo05 from "@/public/images/logo-05.svg";
-import Logo06 from "@/public/images/logo-06.svg";
-import Logo07 from "@/public/images/logo-07.svg";
-import Logo08 from "@/public/images/logo-08.svg";
-import Logo09 from "@/public/images/logo-09.svg";
+import EverBlueLogo from "@/public/images/EverBlueLogo.svg";
+import GithubLogo from "@/public/images/github_logo.svg";
+import AzureLogo from "@/public/images/azure_logo.svg";
+import DatabricksLogo from "@/public/images/databricks.svg";
+import AwsLogo from "@/public/images/aws_black.png";
+import PowerBiLogo from "@/public/images/PowerBI.svg";
+import AnomaloLogo from "@/public/images/anomalo.svg";
 
 export default function BusinessCategories() {
   return (
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
+          <div
+            className="mx-auto max-w-3xl pb-12 text-center md:pb-16"
+            data-aos="zoom-y-out"
+            data-aos-delay={600}
+          >
+            <h2 className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-4xl">
+              Check out our latest project <a href="/everblue">EverBlue</a>
+            </h2>
+            <p className="mb-8 text-lg text-gray-700">
+              EverBlue is a platform that helps you build your own AI agents
+              with ease.
+            </p>
+            <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
+              <div
+                className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center pt-2 pb-2"
+                data-aos="zoom-y-out"
+                data-aos-delay={450}
+              >
+                <a
+                  className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
+                  href="#0"
+                >
+                  <span className="relative inline-flex items-center">
+                    Start Free Trial{" "}
+                    <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
+                      -&gt;
+                    </span>
+                  </span>
+                </a>
+                <a
+                  className="btn w-full bg-white text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
+                  href="/everblue"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+
           {/* Tab panels */}
-          <div className="relative flex h-[324px] items-center justify-center">
+          <div className="relative flex h-[324px] md:h-[324px] h-[200px] items-center justify-center">
             {/* Small blue dots */}
             <div className="absolute -z-10">
               <svg
-                className="fill-blue-500"
+                className="fill-blue-500 scale-75 md:scale-100"
                 xmlns="http://www.w3.org/2000/svg"
                 width={164}
                 height={41}
@@ -127,6 +164,7 @@ export default function BusinessCategories() {
                 height={160}
                 viewBox="0 0 432 160"
                 fill="none"
+                className="scale-75 md:scale-100"
               >
                 <g opacity="0.6" filter="url(#filter0_f_2044_9)">
                   <path
@@ -162,27 +200,36 @@ export default function BusinessCategories() {
               </svg>
             </div>
             {/* Horizontal lines */}
-            <div className="absolute inset-x-0 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
-            <div className="absolute inset-x-0 bottom-0 -z-10 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
-            <div className="absolute inset-x-[200px] top-1/2 -z-10 h-px bg-gradient-to-r from-transparent via-blue-500/60 to-transparent mix-blend-multiply"></div>
-            <div className="absolute inset-x-0 top-1/2 -z-10 h-px -translate-y-[82px] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_both] before:bg-gradient-to-r before:via-blue-500"></div>
-            <div className="absolute inset-x-0 top-1/2 -z-10 h-px translate-y-[82px] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_5s_both] before:bg-gradient-to-r before:via-blue-500"></div>
+            <div className="absolute inset-x-0 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply">
+            </div>
+            <div className="absolute inset-x-0 bottom-0 -z-10 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply">
+            </div>
+            <div className="absolute inset-x-[120px] md:inset-x-[200px] top-1/2 -z-10 h-px bg-gradient-to-r from-transparent via-blue-500/60 to-transparent mix-blend-multiply">
+            </div>
+            <div className="absolute inset-x-0 top-1/2 -z-10 h-px -translate-y-[50px] md:-translate-y-[82px] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_both] before:bg-gradient-to-r before:via-blue-500">
+            </div>
+            <div className="absolute inset-x-0 top-1/2 -z-10 h-px translate-y-[50px] md:translate-y-[82px] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply before:absolute before:inset-y-0 before:w-24 before:animate-[line_10s_ease-in-out_infinite_5s_both] before:bg-gradient-to-r before:via-blue-500">
+            </div>
             {/* Diagonal lines */}
-            <div className="absolute inset-x-[300px] top-1/2 -z-10 h-px rotate-[20deg] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
-            <div className="absolute inset-x-[300px] top-1/2 -z-10 h-px -rotate-[20deg] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply"></div>
+            <div className="absolute inset-x-[180px] md:inset-x-[300px] top-1/2 -z-10 h-px rotate-[20deg] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply">
+            </div>
+            <div className="absolute inset-x-[180px] md:inset-x-[300px] top-1/2 -z-10 h-px -rotate-[20deg] bg-gradient-to-r from-transparent via-gray-200 to-transparent mix-blend-multiply">
+            </div>
             {/* Vertical lines */}
-            <div className="absolute inset-y-0 left-1/2 -z-10 w-px -translate-x-[216px] bg-gradient-to-b from-gray-200 to-transparent mix-blend-multiply"></div>
-            <div className="absolute inset-y-0 left-1/2 -z-10 w-px translate-x-[216px] bg-gradient-to-t from-gray-200 to-transparent mix-blend-multiply"></div>
+            <div className="absolute inset-y-0 left-1/2 -z-10 w-px -translate-x-[130px] md:-translate-x-[216px] bg-gradient-to-b from-gray-200 to-transparent mix-blend-multiply">
+            </div>
+            <div className="absolute inset-y-0 left-1/2 -z-10 w-px translate-x-[130px] md:translate-x-[216px] bg-gradient-to-t from-gray-200 to-transparent mix-blend-multiply">
+            </div>
             {/* Logos */}
             <div className="absolute before:absolute before:-inset-3 before:animate-[spin_3s_linear_infinite] before:rounded-full before:border before:border-transparent before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] before:[background:conic-gradient(from_180deg,transparent,theme(colors.blue.500))_border-box]">
               <div className="animate-[breath_8s_ease-in-out_infinite_both]">
-                <div className="flex h-24 w-24 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
+                <div className="flex h-16 md:h-24 w-16 md:w-24 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                   <Image
-                    className="relative"
-                    src={Logo01}
-                    width={32}
-                    height={32}
-                    alt="Logo 01"
+                    className="relative w-12 h-12 md:w-[70px] md:h-[70px]"
+                    src={EverBlueLogo}
+                    width={70}
+                    height={70}
+                    alt="EverBlue Logo"
                   />
                 </div>
               </div>
@@ -190,106 +237,80 @@ export default function BusinessCategories() {
 
             <div className="relative flex flex-col">
               <article className="flex h-full w-full items-center justify-center focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300">
-                <div className="absolute -translate-x-[136px]">
+                <div className="absolute -translate-x-[80px] md:-translate-x-[136px]">
                   <div className="animate-[breath_7s_ease-in-out_3s_infinite_both]">
-                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
+                    <div className="flex h-12 md:h-16 w-12 md:w-16 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
-                        className="relative"
-                        src={Logo02}
-                        width={23}
-                        height={22}
-                        alt="Logo 02"
+                        className="relative w-8 h-8 md:w-[35px] md:h-[35px]"
+                        src={GithubLogo}
+                        width={35}
+                        height={35}
+                        alt="Github Logo"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="absolute translate-x-[136px]">
+                <div className="absolute translate-x-[80px] md:translate-x-[136px]">
                   <div className="animate-[breath_7s_ease-in-out_3.5s_infinite_both]">
-                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
+                    <div className="flex h-12 md:h-16 w-12 md:w-16 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
-                        className="relative"
-                        src={Logo03}
-                        width={22}
-                        height={22}
-                        alt="Logo 03"
+                        className="relative w-7 h-7 md:w-[30px] md:h-[30px]"
+                        src={AzureLogo}
+                        width={30}
+                        height={30}
+                        alt="Azure Logo"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="absolute -translate-x-[216px] -translate-y-[82px]">
+                <div className="absolute -translate-x-[130px] md:-translate-x-[216px] -translate-y-[50px] md:-translate-y-[82px]">
                   <div className="animate-[breath_6s_ease-in-out_3.5s_infinite_both]">
-                    <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
+                    <div className="flex h-14 md:h-20 w-14 md:w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
-                        className="relative"
-                        src={Logo04}
-                        width={24}
-                        height={22}
-                        alt="Logo 04"
+                        className="relative w-8 h-8 md:w-[35px] md:h-[35px]"
+                        src={DatabricksLogo}
+                        width={35}
+                        height={35}
+                        alt="Databricks Logo"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="absolute -translate-y-[82px] translate-x-[216px]">
+                <div className="absolute -translate-y-[50px] md:-translate-y-[82px] translate-x-[130px] md:translate-x-[216px]">
                   <div className="animate-[breath_6s_ease-in-out_1.5s_infinite_both]">
-                    <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
+                    <div className="flex h-14 md:h-20 w-14 md:w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
-                        className="relative"
-                        src={Logo05}
-                        width={25}
-                        height={25}
-                        alt="Logo 05"
+                        className="relative w-10 h-7 md:w-[45px] md:h-[30px]"
+                        src={AwsLogo}
+                        width={45}
+                        height={30}
+                        alt="AWS Logo"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="absolute translate-x-[216px] translate-y-[82px]">
+                <div className="absolute translate-x-[130px] md:translate-x-[216px] translate-y-[50px] md:translate-y-[82px]">
                   <div className="animate-[breath_6s_ease-in-out_2s_infinite_both]">
-                    <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
+                    <div className="flex h-14 md:h-20 w-14 md:w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-grey-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
-                        className="relative"
-                        src={Logo06}
-                        width={20}
-                        height={18}
-                        alt="Logo 06"
+                        className="relative w-9 h-9 md:w-[40px] md:h-[40px]"
+                        src={PowerBiLogo}
+                        width={40}
+                        height={40}
+                        alt="Power BI Logo"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="absolute -translate-x-[216px] translate-y-[82px]">
+                <div className="absolute -translate-x-[130px] md:-translate-x-[216px] translate-y-[50px] md:translate-y-[82px]">
                   <div className="animate-[breath_6s_ease-in-out_2.5s_infinite_both]">
-                    <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
+                    <div className="flex h-14 md:h-20 w-14 md:w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-gray-200/60 before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       <Image
-                        className="relative"
-                        src={Logo07}
-                        width={25}
+                        className="relative w-11 h-5 md:w-[60px] md:h-[25px]"
+                        src={AnomaloLogo}
+                        width={60}
                         height={25}
-                        alt="Logo 07"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute -translate-x-[292px] opacity-40">
-                  <div className="animate-[breath_6s_ease-in-out_2s_infinite_both]">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
-                      <Image
-                        className="relative"
-                        src={Logo08}
-                        width={20}
-                        height={20}
-                        alt="Logo 08"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute translate-x-[292px] opacity-40">
-                  <div className="animate-[breath_6s_ease-in-out_4s_infinite_both]">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
-                      <Image
-                        className="relative"
-                        src={Logo09}
-                        width={21}
-                        height={13}
-                        alt="Logo 09"
+                        alt="Anomalo Logo"
                       />
                     </div>
                   </div>

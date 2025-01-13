@@ -28,26 +28,20 @@ export default function HeroHome() {
               </p>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
                 <div
-                  className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
+                  className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center pt-2 pb-2"
                   data-aos="zoom-y-out"
                   data-aos-delay={450}
                 >
                   <a
                     className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
+                    href="mailto:contact@blue-chestnut.com"
                   >
                     <span className="relative inline-flex items-center">
-                      Start Free Trial{" "}
+                      Contact Us{" "}
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>
                     </span>
-                  </a>
-                  <a
-                    className="btn w-full bg-white text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
-                    href="/everblue"
-                  >
-                    Learn More
                   </a>
                 </div>
               </div>
@@ -55,7 +49,7 @@ export default function HeroHome() {
           </div>
           {/* Hero image */}
           <div
-            className="mx-auto max-w-3xl"
+            className="mx-auto max-w-3xl pb-12 text-center md:pb-16"
             data-aos="zoom-y-out"
             data-aos-delay={600}
           >
