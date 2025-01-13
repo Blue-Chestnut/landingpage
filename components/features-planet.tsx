@@ -136,7 +136,8 @@ export default function FeaturesPlanet() {
                 development and continuous improvement.
               </p>
             </article>
-            <article>
+            {
+              /* <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
                   className="fill-white"
@@ -189,7 +190,8 @@ export default function FeaturesPlanet() {
                 site with in-depth page view metrics like pages, referring
                 sites, and more.
               </p>
-            </article>
+            </article> */
+            }
           </div>
         </div>
       </div>
