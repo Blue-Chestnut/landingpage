@@ -45,10 +45,10 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/everblue"
+                href="/consulting"
                 className="text-gray-600 hover:text-gray-900 transition-colors duration-150"
               >
-                EverBlue
+                Consulting
               </Link>
             </li>
             <li>

@@ -14,8 +14,7 @@ export default function FeaturesPlanet() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
-              Blue Chestnut builds AI solutions that makes sense for your
-              business.
+              EverBlue is the last data tool you'll ever need.
             </h2>
           </div>
           {/* Planet */}
@@ -86,8 +85,11 @@ export default function FeaturesPlanet() {
                 <span>Front-End Interface</span>
               </h3>
               <p className="text-[15px] text-gray-400 text-justify">
-                Visualize and edit table schemas effortlessly in an intuitive
-                front-end interface.
+                The EverBlue front-end dashboard offers an intuitive interface
+                for managing business table schemas. The Overview Page
+                visualizes schema relationships for easy navigation. The Table
+                Detail View provides in-depth table details and allows users to
+                edit schemas by creating new versions.
               </p>
             </article>
             <article>
@@ -103,10 +105,10 @@ export default function FeaturesPlanet() {
                 <span>Python SDK</span>
               </h3>
               <p className="text-[15px] text-gray-400 text-justify">
-                Blue Chestnut uses automated testing to ensure that the
-                processes and core functionality fulfil your requirements. It
-                enables validation of the output and facilitates responsive
-                changes in the processes by providing continuous verification.
+                The Python SDK for EverBlue allows developers to seamlessly
+                interact with the EverBlue API and tools like PySpark for data
+                storage. It makes reading and writing data to storage easy and
+                consistent.
               </p>
             </article>
             <article>
@@ -126,10 +128,11 @@ export default function FeaturesPlanet() {
                 <span>Version Control</span>
               </h3>
               <p className="text-[15px] text-gray-400 text-justify">
-                At Blue Chestnut, we value maintainability as a key aspect of
-                software development. We strive to produce code that is easy to
-                maintain and well-documented. This will result in faster
-                development and continuous improvement.
+                EverBlue keeps track of the versions of each schema and the
+                changes to migrate from one version to another. Additionally, it
+                seamlessly reads data across multiple versions simultaneously.
+                When accessing data, EverBlue independently loads each version
+                and harmoniously reconciles them to the most current version.
               </p>
             </article>
             <article>
@@ -144,10 +147,12 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>AI Context</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+              <p className="text-[15px] text-gray-400 text-justify">
+                For AI to be truly effective, it needs the right context.
+                EverBlue's central schema registry aids in finding all relevant
+                tables for any given query and provides an AI-readable text
+                block with schemas and relations, ready to be used as context
+                for GenAI tools.
               </p>
             </article>
             <article>
@@ -162,13 +167,15 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Central Source of Truth</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+              <p className="text-[15px] text-gray-400 text-justify">
+                EverBlue acts as a standalone source of truth that can be
+                connected to any number of systems to keep them in sync.
+                EverBlue can be integrated with the AWS Glue Catalogue, Anomalo,
+                Databricks, and more.
               </p>
             </article>
-            <article>
+            {
+              /* <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
                   className="fill-white"
@@ -180,12 +187,13 @@ export default function FeaturesPlanet() {
                 </svg>
                 <span>Integration</span>
               </h3>
-              <p className="text-[15px] text-gray-400">
+              <p className="text-[15px] text-gray-400 text-justify">
                 Collect essential insights about how visitors are using your
                 site with in-depth page view metrics like pages, referring
                 sites, and more.
               </p>
-            </article>
+            </article> */
+            }
           </div>
         </div>
       </div>

@@ -1,4 +1,6 @@
+import Cta from "@/components/cta";
 import HeroConsulting from "@/components/hero-consulting";
+import LargeTestimonial from "@/components/large-testimonial";
 
 export const metadata = {
     title: "Blue Chestnut - Consulting",
@@ -10,6 +12,8 @@ export default function EverBlue() {
     return (
         <>
             <HeroConsulting />
+            <LargeTestimonial />
+            <Cta />
         </>
     );
 }
