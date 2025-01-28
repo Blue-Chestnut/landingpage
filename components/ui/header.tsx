@@ -73,11 +73,11 @@ export default function Header() {
                   Home
                 </Link>
                 <Link
-                  href="/everblue"
+                  href="/consulting"
                   className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  EverBlue
+                  Consulting
                 </Link>
                 <Link
                   href="/contact"

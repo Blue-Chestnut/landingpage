@@ -12,45 +12,6 @@ export default function BusinessCategories() {
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
-          <div
-            className="mx-auto max-w-3xl pb-12 text-center md:pb-16"
-            data-aos="zoom-y-out"
-            data-aos-delay={600}
-          >
-            <h2 className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-4xl">
-              Check out our latest project <a href="/everblue">EverBlue</a>
-            </h2>
-            <p className="mb-8 text-lg text-gray-700">
-              EverBlue is a platform that helps you build your own AI agents
-              with ease.
-            </p>
-            <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
-              <div
-                className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center pt-2 pb-2"
-                data-aos="zoom-y-out"
-                data-aos-delay={450}
-              >
-                <a
-                  className="btn group mb-4 w-full bg-gradient-to-t from-[#093747] to-[#0b475b] bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                  href="#0"
-                >
-                  <span className="relative inline-flex items-center">
-                    Start Free Trial{" "}
-                    <span className="ml-1 tracking-normal text-white transition-transform group-hover:translate-x-0.5">
-                      -&gt;
-                    </span>
-                  </span>
-                </a>
-                <a
-                  className="btn w-full bg-white text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
-                  href="/everblue"
-                >
-                  Learn More
-                </a>
-              </div>
-            </div>
-          </div>
-
           {/* Tab panels */}
           <div className="relative flex h-[324px] md:h-[324px] h-[200px] items-center justify-center">
             {/* Small blue dots */}
