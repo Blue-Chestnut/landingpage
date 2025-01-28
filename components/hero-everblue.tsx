@@ -7,7 +7,7 @@ export default function HeroEverBlue() {
             <PageIllustration />
             <div className="mx-auto max-w-6xl px-4 sm:px-6">
                 {/* Hero content */}
-                <div className="pb-12 pt-32 md:pb-20 md:pt-40">
+                <div className="pt-32 md:pt-40">
                     {/* Section header */}
                     <div className="pb-12 text-center md:pb-16">
                         <h1
@@ -26,7 +26,7 @@ export default function HeroEverBlue() {
                                 The Central Schema Registry for All Your Data
                                 Needs
                             </p>
-                            <p className="mb-8 text-lg text-gray-700 text-justify">
+                            <p className="mb-8 text-lg text-gray-700">
                                 In today's data-driven world, maintaining
                                 structured and organized data is key to
                                 unlocking its full potential. EverBlue, the
@@ -34,21 +34,9 @@ export default function HeroEverBlue() {
                                 revolutionize the way you manage your data
                                 lakes.
                             </p>
-                            <p className="mb-8 text-lg text-gray-700 text-justify">
-                                EverBlue serves as the central source of truth
-                                for all table schemas across one or more data
-                                lakes and their source systems. It ensures that
-                                all table schemas and structures are stored
-                                centrally, and that writing tables to storage
-                                enforces adherence to the predefined schemas.
-                                This is even more important in an AI-powered
-                                future, to ensure that AI is not accidentally
-                                building pipelines that store data in the wrong
-                                form .
-                            </p>
                             <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
                                 <div
-                                    className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center pt-2 pb-2"
+                                    className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center pt-2"
                                     data-aos="zoom-y-out"
                                     data-aos-delay={450}
                                 >
@@ -74,12 +62,14 @@ export default function HeroEverBlue() {
                         </div>
                     </div>
                     {/* Hero image */}
-                    <div
+                    {
+                        /* <div
                         className="mx-auto max-w-3xl"
                         data-aos="zoom-y-out"
                         data-aos-delay={600}
                     >
-                    </div>
+                    </div> */
+                    }
                 </div>
             </div>
         </section>

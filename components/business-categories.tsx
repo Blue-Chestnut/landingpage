@@ -12,6 +12,15 @@ export default function BusinessCategories() {
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
+          <div className="text-center mx-auto max-w-3xl">
+            <p className="mb-8 text-lg text-gray-700">
+              EverBlue serves as the central source of truth for all table
+              schemas across one or more data lakes and their source systems. It
+              ensures that all table schemas and structures are stored
+              centrally, and that writing tables to storage enforces adherence
+              to the predefined schemas.
+            </p>
+          </div>
           {/* Tab panels */}
           <div className="relative flex h-[324px] md:h-[324px] h-[200px] items-center justify-center">
             {/* Small blue dots */}
