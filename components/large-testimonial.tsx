@@ -21,13 +21,15 @@ export default function LargeTestimonial() {
                   fill="#D1D5DB"
                 />
               </svg>
-              <Image
-                className="rounded-full"
-                src={RiiicoLogo}
-                width={96}
-                height={96}
-                alt="Riiico Logo"
-              />
+              <a href="https://riiico.com">
+                <Image
+                  className="rounded-full"
+                  src={RiiicoLogo}
+                  width={96}
+                  height={96}
+                  alt="Riiico Logo"
+                />
+              </a>
             </div>
             <p className="text-2xl font-bold text-gray-900">
               “Thanks to Blue Chestnut’s great work, we have seen performance
@@ -37,7 +39,7 @@ export default function LargeTestimonial() {
             <div className="text-sm font-medium text-gray-500">
               <span className="text-gray-700">Patrick Mertens</span>{" "}
               <span className="text-gray-400">/</span>{" "}
-              <a className="text-[#093747]" href="#0">
+              <a className="text-[#093747]" href="https://riiico.com">
                 CTO at Riiico
               </a>
             </div>
