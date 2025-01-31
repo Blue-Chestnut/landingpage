@@ -1,10 +1,10 @@
 import Image from "next/image";
 import PlanetImg from "@/public/images/planet.png";
 import PlanetOverlayImg from "@/public/images/planet-overlay.svg";
-import PlanetTagImg01 from "@/public/images/planet-tag-01.png";
-import PlanetTagImg02 from "@/public/images/planet-tag-02.png";
-import PlanetTagImg03 from "@/public/images/planet-tag-03.png";
-import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
+// import PlanetTagImg01 from "@/public/images/planet-tag-01.png";
+// import PlanetTagImg02 from "@/public/images/planet-tag-02.png";
+// import PlanetTagImg03 from "@/public/images/planet-tag-03.png";
+// import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
 
 export default function FeaturesPlanet() {
   return (
@@ -30,7 +30,7 @@ export default function FeaturesPlanet() {
                 />
                 <div className="pointer-events-none" aria-hidden="true">
                   <Image
-                    className="absolute -right-64 -top-20 z-10 max-w-none"
+                    className=""
                     src={PlanetOverlayImg}
                     width={789}
                     height={755}
@@ -94,7 +94,7 @@ export default function FeaturesPlanet() {
                 edit schemas by creating new versions.
               </p>
             </article>
-            <article></article>
+            <article className="hidden sm:block"></article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <svg
